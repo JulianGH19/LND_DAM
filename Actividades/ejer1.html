@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <title>Ejercicio 1</title>
+    <meta charset="utf-8">
+
+
+    <style>
+        #contenedor {
+            border-width: 2px;
+            box-sizing: 100vw 100vh;
+            border: solid;
+            border-color: red;
+
+        }
+
+        #contInterior {
+            display: grid;
+            grid-template-columns:3;
+            grid-template-rows: 3;
+            margin: 5px;
+            border-width: 2px;
+            box-sizing: 100% 100%;
+            border: solid;
+            border-color: red;
+        }
+
+        div p {
+            justify-items: center;
+        }
+
+        label {
+            font-weight: bold; 
+        }
+        
+        #envio {
+            font-weight: bold;
+            background-color: lime;
+            width: 100px;
+            margin: 5px;
+            border: bold;
+            border-radius: 5px;
+        }
+
+        #atras, #adelante {
+            border: 3px solid;
+            font-weight: bold;
+        }
+
+        #play {
+            background-color: lime;
+        }
+
+        #stop {
+            background-color: pink;
+        }
+        #miname {
+            background-color: cyan;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+
+        <div id="contInterior">
+            <li>Elemento uno</li>
+            <li>Elemento dos</li>
+            <li>Elemento tres</li>
+            <li>Elemento cuatro</li>
+
+
+            <li>Elemento a</li>
+            <li>Elemento b</li>
+            <li>Elemento c</li>
+            <li>Elemento d</li>
+
+
+            <details>
+
+
+                <div>
+
+                    <h3>Registro de excursion</h3>
+
+                    <form acion="excursion.php" method="POST"></form>
+
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre">
+
+
+                    <br>
+
+                    <label for="edad">Edad: </label>
+                    <input type="number" id="edad">
+
+                    <br>
+
+                    <button type="submit" id="envio">Registrar</button>
+
+                </div>
+
+            </details>
+            Excursión
+
+            <div>
+                <h2>Internet IPv6</h2>
+
+                <h3>Tema 1.-Introducción</h3>
+
+                <p>IPv6 (Internet Protocol version 6) es la evolución de IPv4,
+                    el protocolo que permite identificar y enrutar dispositivos en Internet.
+                    Su motivación principal fue resolver el agotamiento de direcciones IPv4: mientras IPv4 usa 32 bits
+                    (unos 4.300 millones de direcciones), IPv6 usa 128 bits, ofreciendo una cantidad
+                    enorme de direcciones y facilitando el crecimiento de redes, servicios y dispositivos conectados.
+                    Además de ampliar el espacio de direcciones, IPv6 simplifica ciertos aspectos del encaminamiento y
+                    está diseñado para convivir con IPv4 durante una larga etapa de transición.</p>
+
+                <p>Una dirección IPv6 se escribe en hexadecimal, en ocho grupos (hextetos) separados por dos puntos,
+                    por ejemplo: 2001:0db8:0000:0000:0000:0000:0000:0001. Para hacerla más legible se permiten
+                    abreviaciones:
+                    los ceros a la izquierda de cada grupo se pueden omitir, y una secuencia larga de grupos “0000”
+                    se puede comprimir una sola vez usando “::”. También existen direcciones especiales, como la de
+                    loopback
+                    (::1),
+                    la no especificada (::) o las link-local (que suelen empezar por fe80::) usadas dentro del enlace
+                    local.
+                    A nivel práctico, IPv6 evita el broadcast y emplea multicast y anycast para varios tipos de
+                    comunicación
+                    en
+                    red.</p>
+
+                <p>En IPv6 es habitual la autoconfiguración (SLAAC), donde un equipo puede obtener una dirección sin
+                    necesidad
+                    de un servidor DHCP
+                    tradicional, usando anuncios de router (Router Advertisements). Aun así, también existe DHCPv6 para
+                    entornos
+                    que lo prefieren.
+                    IPv6 incorpora soporte obligatorio de IPsec a nivel de estándar (aunque su uso real depende del
+                    despliegue)
+                    y usa ICMPv6 para
+                    funciones clave como descubrimiento de vecinos (Neighbor Discovery). Como la transición desde IPv4
+                    no es
+                    inmediata, se utilizan
+                    mecanismos como doble pila (dual stack), túneles o traducción entre protocolos según el caso. En
+                    conjunto,
+                    IPv6 es una base moderna
+                    para redes.</p>
+
+            </div>
+            <div>
+                        <button type="submit" id="atras"> << </button>
+                        <button type="submit" id="play"> Play </button>
+                        <button type="submit" id="Stop"> Stop </button>
+                        <button type="submit" id="adelante"> >> </button>
+            </div>
+            <div>
+                <href src="/enunciados/foto.jpg"></href>
+            </div>
+            <div id="miname">
+                <a>Julián Hernández</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

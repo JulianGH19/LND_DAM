@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>SJ3</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+         <script>
+            let fecha= new Date();
+            let diasemana;
+            switch (fecha.getDay()){
+                case 0:
+                diasemana= "Domingo" 
+                break;
+                case 1: 
+                diasemana="Lunes"
+                break;
+                case 2:
+                diasemana= "Martes" 
+                break;
+                case 3: 
+                diasemana="Miercoles"
+                break;
+                case 4:
+                diasemana= "Jueves" 
+                break;
+                case 5: 
+                diasemana="Viernes"
+                break;
+                case 6: 
+                diasemana="Sábado"
+                break;
+            }
+            alert("Hoy es "+diasemana);
+         </script>
+    </body>
+</html>
