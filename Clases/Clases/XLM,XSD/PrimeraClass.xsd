@@ -1,0 +1,9 @@
+<schema>
+<agenda>
+  <contacto>
+     <nombre>Angel</nombre>
+     <telefono>922 922 922</telefono>
+     <correo> Angel@nolo.se</correo>
+  </contacto>
+  </agenda>
+</schema>

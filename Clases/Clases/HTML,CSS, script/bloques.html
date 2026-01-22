@@ -1,0 +1,80 @@
+
+<html>
+	<head>
+		<title>Cajas</title>
+		<meta charset="utf-8">
+		<style>
+			p, h1,a, div {
+				border:1px solid black;
+			}/*Esto es un comentario*/
+			div { 
+				margin-bottom: 1em;
+				margin-right: 1em;
+				width:50%;
+				border-color:blue;
+			 }
+			div:nth-child(4){
+				border:none;
+			}
+	           	 p, hr {
+			     margin-bottom: 1em;
+			     padding-bottom:1em;
+                         }
+			 h1:nth-child(2) {
+				 display:inline;
+                                 color:red;
+			 }
+			 h1,a,p {
+				 text-align:center;
+			 }
+			 a {
+				 border: 3px solid green;
+				 margin-right:1em;
+				 padding: 5px;
+			 }
+			 #interior {
+				 margin:0 auto;
+				 width: 20%;
+				 border: 5px;
+			 }
+			 #interior>a {
+				 display:block;
+				 margin-bottom:20px;
+			 }
+			 #flexible {
+				 border: 2px dashed black;
+				 display: flex
+			 }
+			 #flexible>p {
+                                   margin:0;
+			 }
+		</style>
+	</head>
+	<body>
+		<div>
+		    <p>Párrafo</p>
+		    <h1>Encabezado</h1>
+		    <h1>Encabezado</h1>
+		    <span>
+			    <a>Elemento a</a><h1>Encabezado</h1>
+			    <h1>Encabezado</h1>
+	             </span>
+		</div>
+	        <h1>Encabezado</h1>
+		<hr>
+		<div>
+			<div id="interior">
+		    <a>Elemento a</a><a>Elemento a</a><a>Elemento a</a>
+		      </div>
+		</div>
+	        <h1>Encabezado</h1>
+		<div id="Flexible">
+			<p>Párrafo</p>
+			<a>Elemento a</a>
+		</div>
+
+	</body>
+
+</html>
+		
+

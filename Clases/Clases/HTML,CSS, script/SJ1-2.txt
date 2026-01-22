@@ -1,0 +1,30 @@
+ LND(20-11-25)
+
+
+   <script>
+
+     let a; // crea variable
+     a= "hola" // define variable
+     console.log(a) //Muestra variable en console(f12/click derecho+inspecionar)
+  
+  </script>
+
+   <script>
+
+     let lista= [2,"5",8,true];
+     lista[3];
+  
+  </script>
+
+
+
+    scope(ambito de una variable):
+ -Ambito global
+   Dentro de los {}
+
+ -Ambito local
+   Fuera de los {}
+
+         //Hay que intentar declarar variables con "const pi = 3,1416"
+         //JavaScript se ejecuta del lado del cliente(Profe: "Depende de lo que quieras hacer")("Bastante seguro al cifrar")
+         //Privoote cifra del lado del cliente para luego enviarlo al servidor

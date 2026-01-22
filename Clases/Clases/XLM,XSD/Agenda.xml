@@ -1,0 +1,15 @@
+<schema>
+<agenda>
+  <contacto>
+     <nombre>Angel</nombre>
+     <telefono>922922922</telefono>
+     <correo> Angel@nolo.se</correo>
+  </contacto>
+  <contacto>
+     <nombre>Ana</nombre>
+     <telefono>922562321</telefono>
+     <correo> Ana@nolo.se</correo>
+  </contacto>
+</agenda>
+
+<schema>
