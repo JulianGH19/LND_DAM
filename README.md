@@ -4,3 +4,5 @@ Guardado de ejercicios de lnd y pruebas en cada clase
 ----> Empezamos css
 11-12-2025
 ----> Acabamos html, css y JavaScript
+12-01-2026
+----> Empezamos XMS
